@@ -1,6 +1,6 @@
-const workers = [
+export const data = [
     {
-        id: 1,
+        uid: 1,
         name: "Maria Lopez",
         image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 32,
@@ -14,7 +14,7 @@ const workers = [
             }
      },
      {
-        id: 2,
+        uid: 2,
         name: "Emily Johnson",
         image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 28,
@@ -28,7 +28,7 @@ const workers = [
             }
     },
     {
-        id: 3,
+        uid: 3,
         name: "John Smith",
         image: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 35,
@@ -42,7 +42,7 @@ const workers = [
             }
     },
     {
-        id: 4,
+        uid: 4,
         name: "Michael Brown",
         image: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 40,
@@ -56,7 +56,7 @@ const workers = [
             }
     },
     {
-        id: 5,
+        uid: 5,
         name: "Sophia Martinez",
         image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 27,
@@ -70,7 +70,7 @@ const workers = [
             }
     },
     {
-        id: 6,
+        uid: 6,
         name: "Isabella Garcia",
         image: "https://images.pexels.com/photos/2804282/pexels-photo-2804282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 31,
@@ -85,7 +85,7 @@ const workers = [
     },
 
     {
-        id: 7,
+        uid: 7,
         name: "William Taylor",
         image: "https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&w=600",
         age: 33,
@@ -99,7 +99,7 @@ const workers = [
             }
     },
         {
-        id: 8,
+        uid: 8,
         name: "Ethan Wilson",
         image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 29,
@@ -113,7 +113,7 @@ const workers = [
             }
     },
     {
-        id: 9,
+        uid: 9,
         name: "Olivia Anderson",
         image: "https://images.pexels.com/photos/5905902/pexels-photo-5905902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 36,
@@ -127,7 +127,7 @@ const workers = [
             }
     },
     {
-        id: 10,
+        uid: 10,
         name: "Emma Brown",
         image: "https://images.pexels.com/photos/19130891/pexels-photo-19130891/free-photo-of-moda-mujer-modelo-camisa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 30,
@@ -141,7 +141,7 @@ const workers = [
             }
     },
     {
-        id: 11,
+        uid: 11,
         name: "James Martinez",
         image: "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 25,
@@ -155,7 +155,7 @@ const workers = [
             }
     },
         {
-        id: 12,
+        uid: 12,
         name: "Alexander Rodriguez",
         image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 38,
@@ -169,7 +169,7 @@ const workers = [
             }
     },
     {
-        id: 13,
+        uid: 13,
         name: "Ava Wilson",
         image: "https://images.pexels.com/photos/14541208/pexels-photo-14541208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 26,
@@ -183,7 +183,7 @@ const workers = [
             }
     },
     {
-        id: 14,
+        uid: 14,
         name: "Mia Perez",
         image: "https://images.pexels.com/photos/5878568/pexels-photo-5878568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         age: 29,
@@ -197,7 +197,7 @@ const workers = [
             }
     },
     {
-        id: 15,
+        uid: 15,
         name: "Daniel Thompson",
         image: "https://images.pexels.com/photos/2232981/pexels-photo-2232981.jpeg",
         age: 34,
